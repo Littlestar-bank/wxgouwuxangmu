@@ -1,0 +1,24 @@
+
+<!-- 滑块 -->
+<scroll-view class="scrolltab" scroll-x="true" >
+	<block wx:for="{{datahuakuai}}" wx:key="index">
+		<view class="scrolltab item {{currentTab== item.name ? 'on' : ''}}"  bindtap="jump" data-caa="{{item.name}}">{{item.name}}</view>
+	</block>
+</scroll-view>
+<!-- 轮播图 -->       
+<lunboo indexlist="{{datalunbo}}" sheight="160px" url="img" > </lunboo>
+<van-progress :percentage="50" />
+<van-notice-bar
+  left-icon="volume-o"
+  text="祝大家每天开心♥♥♥，祝大家每天开心♥♥♥，祝大家每天开心♥♥♥，祝大家每天开心♥♥♥"
+/>
+<view class="goods-box">
+<block wx:for="{{datamyfenlei}}" wx:key="index">
+<view class="goods-item">
+  <image src="{{item.pict_url}}" class="goods-image" ></image>
+     <text class="goods-name">{{item.category_name}}</text>
+  <text class="goods-price">￥{{item.reserve_price}}</text>
+
+</view>
+</block>
+</view>

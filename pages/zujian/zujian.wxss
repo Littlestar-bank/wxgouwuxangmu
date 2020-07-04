@@ -1,0 +1,22 @@
+/* 头 */
+.view-box {
+  display: flex;
+  justify-content:  space-around;
+  padding: 30rpx;
+  background-color: white;
+}
+.view-box-1 {
+  font-size: 30rpx;
+}
+/* 底部 */
+.view-bottom {
+  height: 100%;
+  background-color:  #eee;
+}
+.onn{
+  color: red;
+  border-bottom: 4rpx solid red;
+}
+page {
+  height: 100%;
+}

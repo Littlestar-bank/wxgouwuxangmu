@@ -1,0 +1,12 @@
+{
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+  "usingComponents": {
+     "lunboo":"../../components/lunbo/lunbo",
+     "van-notice-bar": "@vant/weapp/notice-bar/index"
+  }
+ 
+}

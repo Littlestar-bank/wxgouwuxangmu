@@ -1,0 +1,76 @@
+<!--pages/wode/wode.wxml-->
+<!-- 获取头像 -->
+<view class="container">
+	<view class="userinfo">
+		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+		<block wx:else>
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+		</block>
+	</view>
+</view>
+<!-- 订单 -->
+<view class="dingdan">
+	<view class="view-1">我的订单</view>
+	<view class="view-quanbu">
+		全部订单
+		<image class="view-image" src="../../images/more.png"></image>
+	</view>
+</view>
+<!-- 待发收完 -->
+<view class="view-dai">
+	<view class="view-dai1" bindtap="jump_1">
+		<image class="view-images1" src="../../images/fukuan.png">
+		</image>
+		待付款
+	</view>
+	<view class="view-dai1" bindtap="jump_1" >
+		<image class="view-images1" src="../../images/fahuo.png">
+		</image>
+		待发货
+	</view>
+	<view class="view-dai1" bindtap="jump_1">
+		<image class="view-images1" src="../../images/shouhuo.png">
+		</image>
+		待收货
+	</view>
+	<view class="view-dai1" bindtap="jump_1">
+		<image class="view-images1" src="../../images/pingjia.png">
+		</image>
+		待评价
+	</view>
+	<view class="view-dai1" bindtap="jump_1">
+		<image class="view-images1" src="../../images/wancheng.png">
+		</image>
+		已完成
+	</view>
+</view>
+
+<!-- 横线 -->
+<view class="hengxian">
+</view>
+
+<!-- 退收官收 -->
+<view class="view-xia">
+	<image class="images-xia1" src="../../images/myquan.png"></image>
+	我的优惠卷
+</view>
+<view class="view-xia">
+	<image class="images-xia1" src="../../images/tuikuan.png"></image>
+	退款/售货
+</view>
+<view class="view-xia">
+	<image class="images-xia1" src="../../images/kefu.png"></image>
+	收获地址
+</view>
+<view class="view-xia">
+	<image class="images-xia1" src="../../images/myquan.png"></image>
+	官方客服
+</view>
+<view class="view-xia">
+	<image class="images-xia1" src="../../images/shezhi.png"></image>
+	设置
+</view>
+<view class="view-xia">
+关于我们
+</view>

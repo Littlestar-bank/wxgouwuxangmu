@@ -1,0 +1,65 @@
+{
+  "pages":[
+    "pages/index1/index1",
+    "pages/logs/logs",
+    "pages/fenlei/fenlei",
+    "pages/gouwuche/gouwuche",
+    "pages/wode/wode",
+    "pages/lunbo/lunbo",
+    "components/lunbo/lunbo",
+    "pages/my-fenlei/my-fenlei",
+    "pages/ditu/ditu",
+    "pages/zujian/zujian",
+    "pages/shousuo/shousuo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index1/index1",
+        "text": "首页",
+        "iconPath": "./images/sy1.png",
+        "selectedIconPath": "./images/sy2.png"
+    },
+    {
+      "pagePath": "pages/fenlei/fenlei",
+      "text": "分类",
+      "iconPath": "./images/fl1.png",
+      "selectedIconPath": "./images/fl2.png"
+  },
+  {
+    "pagePath": "pages/gouwuche/gouwuche",
+    "text": "分类",
+    "iconPath": "./images/gwc1.png",
+    "selectedIconPath": "./images/gwc2.png"
+},
+{
+  "pagePath": "pages/wode/wode",
+  "text": "分类",
+  "iconPath": "./images/wd1.png",
+  "selectedIconPath": "./images/wd2.png"
+}
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "plugins": {
+    "subway": {
+      "version": "1.0.9",
+      "provider": "wx6aaf93c4435fa1c1"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序定位"
+    }
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button"
+    }
+}

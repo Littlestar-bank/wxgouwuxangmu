@@ -1,0 +1,67 @@
+/* 滑块 */
+.scrolltab {
+  width: 100%;
+  line-height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: space-around;
+  background-color: beige;
+}
+
+.scrolltab .item {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  /* color: #333; */
+  font-size: 35rpx;
+}
+
+.scrolltab .item view {
+  width: 80%;
+  height: 100%;
+  padding-top: 15rpx;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+/* 轮播 */
+image {
+  width: 100%;
+  height: 400rpx;
+}
+
+/* my分类 */
+.goods-box {
+  width: 100%;
+}
+.on {
+  color: red;
+  border-bottom: 6rpx solid red;
+}
+.goods-item {
+  height: 400rpx;
+  float: left;
+  padding: 25rpx;
+  box-shadow: 0px 0px 5px #ddd;
+  border: 10rpx solid #f5f5f5;
+}
+
+.goods-image {
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 30rpx
+}
+.goods-name {
+  display: block;
+  font-size: 30rpx;
+}
+.goods-price {
+  color: red;
+}

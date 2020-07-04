@@ -1,0 +1,23 @@
+<view class="shousuo-1">
+<view class="shousuo-2"bindtap="jjuu">
+  <image class="shousuo-image" src="../../images/shousuotu.png">	</image>
+		 搜索框
+</view>
+</view>
+<!-- 滑块| -->
+<scroll-view scroll-y="true" style="height: 100%;">
+	<block wx:for="{{datafenlei}}" wx:key="index">
+		<view class="scrolltab item {{currentTab== item.name ? 'oon' : ''}}" bindtap="jump" data-caa="{{item.name}}">{{item.name}}</view>
+	</block>
+</scroll-view>
+<!-- 右 -->
+<view class="youhuakuai" style="height:100vh">
+<!-- <scroll-view  scroll-y="true"  id="scrll" style="height: 100%;"> -->
+	<block wx:for="{{datafenleiyou}}" wx:key="index">
+		<view class="youvie">
+			<image src="{{item.pict_url}}" class="fenlei-image"></image>
+			<view class="scrolltab-item">{{item.category_name}}</view>
+		</view>
+	</block>
+	<!-- </scroll-view> -->
+</view>

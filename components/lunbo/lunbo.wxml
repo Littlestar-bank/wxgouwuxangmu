@@ -1,0 +1,11 @@
+<view class="page-body">
+	<view class="page-section page-section-spacing swiper">
+		<swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" style="height:{{sheight}}" >
+			<block wx:for="{{indexlist}}" wx:key="index">
+				<swiper-item>
+			 <image src="{{item[url]}}"></image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/zujian/zujian.wxml-->
+<!-- 头部 -->
+ <view class="view-box">
+  <view class="view-box-1 {{currentTab== item.id ? 'onn' : ''}}"  bindtap="jump" data-caa="{{item.id}}" wx:for='{{navlist}}'>
+  {{item.name}}
+  </view>
+</view>
+<!-- 底部 -->
+<view class="view-bottom">
+<view wx:if='{{currentTab}}'>
+{{currentTab}}
+</view>
+</view>
+<van-tabs active="a">
+  <van-tab title="标签 1" name="a">内容 1</van-tab>
+  <van-tab title="标签 2" name="b">内容 2</van-tab>
+  <van-tab title="标签 3" name="c">内容 3</van-tab>
+</van-tabs>
+
