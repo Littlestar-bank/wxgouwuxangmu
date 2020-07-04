@@ -10,7 +10,8 @@
     "pages/my-fenlei/my-fenlei",
     "pages/ditu/ditu",
     "pages/zujian/zujian",
-    "pages/shousuo/shousuo"
+    "pages/shousuo/shousuo",
+    "pages/xqq/xqq"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -45,7 +46,6 @@
 }
   ]
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json",
 
   "plugins": {

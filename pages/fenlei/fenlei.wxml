@@ -14,7 +14,7 @@
 <view class="youhuakuai" style="height:100vh">
 <!-- <scroll-view  scroll-y="true"  id="scrll" style="height: 100%;"> -->
 	<block wx:for="{{datafenleiyou}}" wx:key="index">
-		<view class="youvie">
+		<view class="youvie"  bindtap="oopp" data-id="{{item.item_id}}">
 			<image src="{{item.pict_url}}" class="fenlei-image"></image>
 			<view class="scrolltab-item">{{item.category_name}}</view>
 		</view>
