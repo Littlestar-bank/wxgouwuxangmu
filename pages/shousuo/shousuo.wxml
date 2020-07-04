@@ -1,2 +1,21 @@
 <!--pages/shousuo/shousuo.wxml-->
-<text>pages/shousuo/shousuo.wxml</text>
+<view>
+	<van-search value="{{ value }}" placeholder="请输入搜索关键词" use-action-slot bind:change="onChange" bind:search="onSearch">
+		<view slot="action" bind:tap="onClick">搜索</view>
+	</van-search>
+</view>
+
+<!-- <view class="search_no" wx:if="{{!centent_Show}}">
+  <text>很抱歉,没有找到您要搜索的资料/(ㄒoㄒ)/~~</text>
+</view> -->
+
+<view class="history_search">
+  <view class="history"><view>历史搜索</view><van-icon name="delete" /></view>
+  <view class="spring" wx:for="{{historylist}}">{{item}}</view>
+</view>
+<view class="hot_search">
+  <view class="hot">热门搜索</view>
+  <view class="product">
+  <view class="kinds" wx:for="{{hotlist}}">{{item}}</view>
+  </view>
+</view>

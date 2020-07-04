@@ -10,11 +10,11 @@
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
-		"coverView": true,
-		"nodeModules": true,
 		"autoAudits": false,
+		"coverView": true,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
+		"nodeModules": true,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -23,12 +23,12 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"useCompilerModule": false,
+		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.3",
-	"appid": "wx81415eb50320b094",
+	"appid": "wx4bc604de2ad6eecb",
 	"projectname": "wxxiaochengxu",
 	"debugOptions": {
 		"hidedInDevtools": []
