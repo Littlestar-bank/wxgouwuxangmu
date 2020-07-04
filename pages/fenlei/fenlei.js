@@ -57,6 +57,12 @@ Page({
       url: '../shousuo/shousuo',
     })
   },
+  oopp(e) {
+    wx.navigateTo({
+      url: '../xqq/xqq?id='+ e.currentTarget.dataset.id,
+    })
+    console.log(e)
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

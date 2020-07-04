@@ -1,0 +1,67 @@
+/* pages/xqq/xqq.wxss */
+/* 轮播 */
+image {
+  width: 100%;
+  height: 100%;
+}
+swiper  {
+  height: 285px;
+}
+
+.view-name {
+  padding: 30rpx 30rpx 10rpx 30rpx;
+}
+.view-fenxiang {
+  padding: 30rpx 30rpx 10rpx 30rpx;
+  color: red;
+  font-size: 25rpx;
+}
+
+.view-jiaqiangoumai {
+  padding: 30rpx;
+ 
+}
+.view-jiaqian {
+  display: flex;
+  justify-content: space-between;
+}
+.jiaqian {
+  color: red;
+  font-size: 30rpx;
+}
+.goumai {
+  color: #999;
+  font-size: 30rpx;
+}
+.shoudao {
+  color: #999;
+  font-size: 30rpx;
+}
+.henxian-1 {
+  height: 30rpx;
+  background-color: #f2f2f2;
+}
+.shangpinyouhuijuan {
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.shangpinming {
+  padding: 30rpx;
+  font-size: 30rpx;
+  
+}
+.youhuijuan {
+  font-size: 30rpx; 
+}
+.shangpinnrong {
+  padding: 0rpx 0rpx 0rpx 30rpx;
+  font-size: 30rpx;
+  height: 100rpx;
+}
+.van-goods-action {
+  transform: scale(0.8);
+
+left: -60rpx!important;
+  width: 120%;
+}

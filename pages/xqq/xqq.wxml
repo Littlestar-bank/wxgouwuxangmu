@@ -1,0 +1,59 @@
+
+<!-- 轮播图 -->    
+
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" style="height:{{sheight}}" >
+  <block wx:for="{{xxqq[0].small_images.string}}" wx:key="index">
+    <swiper-item>
+    <image src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+ <view class="view-name">
+     啦啦啦
+ </view>
+  <view class="view-fenxiang">
+     啦啦啦asvonisaviksnkadvnsaldv
+ </view>
+ <view class="view-jiaqiangoumai">
+   <view class="view-jiaqian">
+     <view class="jiaqian">
+     ￥525
+     </view>
+     <view class="goumai">
+        50220次
+     </view>
+     <view class="shoudao">
+       共收到100次好评
+     </view>
+     </view>
+  </view>
+  <view class="henxian-1">
+  
+  </view>
+  <view class="shangpinyouhuijuan">
+    <view class="youhuijuan">
+      商品优惠卷
+    </view>
+    <view class="jiantou">
+    >
+    </view>
+  </view>
+    <view class="henxian-1">
+  
+  </view>
+   <view class="shangpinjieshao">
+      <view class="shangpinming">
+      sacascscf
+      </view>
+      <view class="shangpinnrong">
+      dsbdbdsbdsb
+      </view>
+  </view>
+<!-- 底部 -->
+<van-goods-action>
+  <van-goods-action-icon icon="chat-o" text="客服" dot />
+  <van-goods-action-icon icon="cart-o" text="购物车" info="5" />
+  <van-goods-action-icon icon="shop-o" text="店铺" />
+  <van-goods-action-button text="加入购物车" type="warning" />
+  <van-goods-action-button text="立即购买" />
+</van-goods-action>
